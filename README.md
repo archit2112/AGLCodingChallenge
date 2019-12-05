@@ -14,9 +14,9 @@ This is a Java client that consumes a web service and processes the data returne
 # Working
 
 ConsumeWebService.java is the main class that contains the following three functions
-1. getJSONfromService(String input_url) - sends a request to a webservice, gets a response and then returns the JSON object as a String
-2.parseJSONResponse(String json_string, String gender, String pet_type) - parses the JSON and collects all pet names in an ArrayList based on pet type and owner gender
-3. sortAndPrint(ArrayList<String> pet_names) - sorts and prints the array list
+1. getJSONfromService(String input_url) - sends a request to a webservice, gets a response and then returns the JSON object as a String.
+2. parseJSONResponse(String json_string, String gender, String pet_type) - parses the JSON and collects all pet names in an ArrayList based on pet type and owner gender.
+3. sortAndPrint(ArrayList<String> pet_names) - sorts and prints the array list.
   
 ConsumeWebServiceTest.java contains all unit test cases.
 
