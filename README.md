@@ -2,7 +2,11 @@
 
 About the Project- 
 
-This is a Java client that consumes a web service and processes the data returned by the service.
+1. This is a Java client that calls a web service, parses the returned JSON object and outputs a list of all the cats in alphabetical order under a heading of the gender of their owner.
+2. The code has been made generic and modular resulting in efficient code reuse. 
+3. Comments have been added throughout the project to enhance readability and maitainability of code.
+4. Java's Collection Framework has been used to handle JSON objects.
+5. Unit tests have been written using JUnit Library.
 
 # Frameworks/Tools Used
 
@@ -22,3 +26,4 @@ ConsumeWebServiceTest.java contains all unit test cases.
 
 # Screenshots
 Screenshots can be found in the 'screenshots' folder.
+
